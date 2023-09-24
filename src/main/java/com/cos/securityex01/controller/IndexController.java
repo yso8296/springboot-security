@@ -62,7 +62,7 @@ public class IndexController {
 		return "redirect:/loginForm";
 	}
 
-	@Secured("ROLE_ADMIN")
+	/*@Secured("ROLE_ADMIN")
 	@GetMapping("/info")
 	public @ResponseBody String info() {
 		return "개인정보";
@@ -72,5 +72,5 @@ public class IndexController {
 	@GetMapping("/info")
 	public @ResponseBody String data() {
 		return "데이터정보";
-	}
+	}*/
 }
